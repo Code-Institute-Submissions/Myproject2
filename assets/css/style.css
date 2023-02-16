@@ -106,7 +106,9 @@ header{
     margin: 0 10px ;
     cursor: pointer;
 }
-
+.active,.dot:hover{
+    border-color:#3498db;
+}
 .fade{
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s ; 
