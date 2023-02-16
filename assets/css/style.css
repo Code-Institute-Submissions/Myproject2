@@ -111,7 +111,7 @@ header{
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s ; 
     animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
@@ -137,7 +137,7 @@ header{
     z-index:1;
 }
 
-@keyframes-keyframes posi {
+@-webkit-keyframes posi {
      from {left:25%;}
      to{left:15%;}
 }
@@ -189,4 +189,30 @@ img {
         animation-name: posi2;
         animation-duration:2s;
     }
+    @-webkit-keyframes posi2{
+        from {top:35%;}
+    to{top:50%;}
+    }
+    @keyframes posi2{
+        from {top:35%;}
+    to{top:50%;}
+    }
+    .txt h1{
+        font-size:40px ;
+    }
+    .txt p{
+        font-size:13px ;
+    }
+}
+@media screen and (max-width:520px) {
+    .text h1{
+        font-size: 30px;
+    }
+    .sign {
+        margin-right: 20px;
+    }
+    .sing a {
+        font-size: 12px;
+    }
+
 }
