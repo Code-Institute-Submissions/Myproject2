@@ -30,6 +30,14 @@ const myslide = document.querySelectorAll('.myslider'),
         for(i = 0; i<dot.length;i++){
             dot[i].classList.remove('active')
         }
+        if(n > myslide.length){
+            counter = 1;
+        }
+        if(n < 1){
+           counter =  myslide.length;
+        }
+        myslide[counter - 1].style.display = "block";
+        dot[counter -1].classList.add('active');
     }
     
 
