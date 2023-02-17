@@ -237,20 +237,20 @@ img {
     max-width: 900px;
     width: 100%;
     border-radius: 6px;
-    padding: 30px;
+    padding: 45px;
     margin: 0 15px;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 5px 10px rgba(0,0,0,0.8);
-
+    
 }
 
-.container .head {
+.container header {
     padding: 10px;
     font-size: 20px;
     font-weight: 600;
     color:#333;
 }
-.container head::before{
+/*.container header::before{
     content:"";
     position: absolute;
     left:0;
@@ -259,12 +259,21 @@ img {
     width: 27px;
     border-radius: 8px;
     background-color:#4070f4;
-
-}
+    */
 .container form{
     position: relative;
     margin: top 16px;
     min-height: 490px;
     background-color:#f2f2f2;
 
+}
+
+.container form .details{
+   margin-top: 10px;
+}
+.container form .title{
+    font-size: 16px;
+    font-weight:500;
+    margin:6px 0;
+    color: #333;
 }
