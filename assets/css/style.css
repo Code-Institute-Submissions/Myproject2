@@ -278,10 +278,13 @@ img {
 .text-boxes .text-box .topic{
     font-size: 18px;
     font-weight: 600;
+    color: #265df2;
 }
 
 .text-boxes .text-box textarea{
     height: 70%;
     width: 100%;
-    
+    padding: 30px;
+    font-size: 15px;
+    font-style: 400;
 }
