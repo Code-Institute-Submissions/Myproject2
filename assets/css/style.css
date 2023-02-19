@@ -253,3 +253,35 @@ img {
    border-left: 2px solid rgba(0,0,0,0.2);
    pointer-events: none;
 }
+
+.seccao2{
+    margin-left: 40px;
+    height: 100%;
+    width: 60%;
+    background-color: #c6d1e0;
+}
+
+.text-boxes{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-boxes .text-box{
+   height:380px; 
+   max-width:660px;
+   width:80%;
+   margin: 100px;
+}
+
+.text-boxes .text-box .topic{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-boxes .text-box textarea{
+    height: 70%;
+    width: 100%;
+    
+}
