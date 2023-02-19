@@ -279,6 +279,7 @@ img {
     font-size: 18px;
     font-weight: 600;
     color: #265df2;
+    margin: 4px;
 }
 
 .text-boxes .text-box textarea{
@@ -287,4 +288,25 @@ img {
     padding: 30px;
     font-size: 15px;
     font-style: 400;
+    outline:none;
+    border: 1px solid #265df2;
+    border-radius: 8px;
+    background: #e7edfe;
+}
+.text-box textarea::-webkit-scrollbar{
+    display: none;
+}
+
+.text-boxes .text-box button{
+    height: 45px;
+    width: 155px;
+    color: #fff;
+    background: #265df2;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 8px 0 ;
+    cursor: pointer;
 }
