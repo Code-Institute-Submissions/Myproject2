@@ -21,19 +21,19 @@ header{
     cursor: pointer;
     font-size: 30px;
     font-weight: bold;
-    color: #3498db;
+    color:#fd7505;
 
 }
 
 #logo:hover{
-    color: #ecf0f1;
+    color: #ffffff;
 }
 #logo-me{
-    color:#ecf0f1;
+    color:#fffffe;
     margin-left: 5px;
 }
 #logo:hover #logo-me{
-   color: #3498db;
+   color: #fd7505;
 }
 
 .sign{
@@ -150,7 +150,7 @@ header{
 }
 
 .txt h1{
-    color:#3498db;
+    color: #fd7505;;
     font-weight: bold;
     margin:20px;
 }
