@@ -84,7 +84,7 @@ header{
    user-select: none;
 }
 .prev:hover , .next:hover{
-     color: #3498db;
+     color:#fd7505;
 }
 .next{
     right: 0;
