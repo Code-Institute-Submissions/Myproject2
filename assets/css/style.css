@@ -43,7 +43,7 @@ header{
 }
 
 .sign a{
-  color: #fff;
+  color: #fd7505;
   font-weight: bold;
   text-decoration: none;
 }
@@ -56,18 +56,19 @@ header{
 }
 
 .sign a:hover{
-    color:#3498db;
-    border-color:#3498db;
+    color:#fd7505;
+    border-color:#fd7505;
 }
 
 .slider{
     position: relative;
     width: 100%;
     background: #2c3e50;
+
 }
 
 .myslider{
-    height: 655px;
+    height: 920px;
     display:none;
     overflow: hidden;
 }
