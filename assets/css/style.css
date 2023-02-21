@@ -107,7 +107,7 @@ header{
     cursor: pointer;
 }
 .active,.dot:hover{
-    border-color:#3498db;
+    border-color: #fd7505;
 }
 .fade{
     -webkit-animation-name: fade;
@@ -150,7 +150,7 @@ header{
 }
 
 .txt h1{
-    color: #fd7505;;
+    color: #fd7505;
     font-weight: bold;
     margin:20px;
 }
@@ -165,6 +165,7 @@ img {
     -webkit-animation-duration:40s;
     animation-name: zoomin;
     animation-duration:40s;
+    
 }
 
 @-webkit-keyframes zoomin {
